@@ -18,12 +18,6 @@ h5 {
   font-weight: 450;
 }
 
-body {
-  background-color: rgb(94, 226, 182);
-  background-image: url(img/bg6.jpg);
-  background-size: 100%;
-}
-
 .send:hover {
   box-shadow: 100px;
   color: darkgrey;
