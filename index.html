@@ -15,7 +15,7 @@
 
   <body style="height: 100vh; background-image: url(img/bg7.jpg)">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fw-bold fs-5 fixed-top navbar-dark">
+    <nav class="navbar navbar-expand-lg fw-bold fixed-top navbar-dark bg-dark bg-opacity-50">
       <div class="container">
         <a class="navbar-brand text-danger" href="#"><i>Nusan</i><i class="text-white">taraKu</i></a>
         <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -89,16 +89,16 @@
     <!-- Carousel End -->
 
     <!-- Post -->
-    <section id="post" class="mt-5 p-2 rounded-5 bg-secondary bg-opacity-75">
+    <section id="post" class="mt-5 p-3 rounded-5 bg-secondary bg-opacity-75">
       <div class="container">
-        <div class="row justify-content-center mb-4">
+        <div class="row justify-content-center mb-5">
           <div class="col text-center text-light">
             <h3>POSTS</h3>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-6 text-center mb-4" id="post1">
-            <img src="img/4.jpg" alt="" class="mb-2 img-fluid" style="border-radius: 10px" />
+            <img src="img/4.jpg" alt="" class="mb-2 img-fluid img-thumbnail" style="border-radius: 10px" width="400" height="200" />
             <a href="https://jelajahblitar.com/pantai-jebring/" class="text-decoration-none" style="color: rgb(227, 230, 233)"><h4>Pantai Jebring</h4></a>
             <p style="font-weight: 700">Alamat: Banyuurip, Ngadipuro, Wonotirto, Blitar, Jawa Timur</p>
             <p style="text-align: justify; color: aliceblue; font-weight: 400">
@@ -108,7 +108,7 @@
             </p>
           </div>
           <div class="col-md-6 text-center mb-4" id="post2">
-            <img src="img/5.jpg" alt="" class="mb-2 img-fluid" style="border-radius: 10px" />
+            <img src="img/5.jpg" alt="" class="mb-2 img-fluid img-thumbnail" style="border-radius: 10px" width="400" height="200" />
             <a href="https://jelajahblitar.com/perkebunan-teh-sirah-kencong/" class="text-decoration-none" style="color: rgb(227, 230, 233)"><h4>Sirah Kencong</h4></a>
             <p style="font-weight: 700">Alamat: Pkb. Sirahkencong, Ngadirenggo, Wlingi, Blitar, Jawa Timur</p>
             <p style="text-align: justify; color: aliceblue; font-weight: 400">
@@ -118,7 +118,7 @@
             </p>
           </div>
           <div class="col-md-6 text-center mb-4" id="post3">
-            <img src="img/6.jpg" alt="" class="mb-2 img-fluid" style="border-radius: 10px" />
+            <img src="img/6.jpg" alt="" class="mb-2 img-fluid img-thumbnail" style="border-radius: 10px" width="400" height="200" />
             <a href="https://jelajahblitar.com/bukit-teletubbies-blitar/" class="text-decoration-none" style="color: rgb(227, 230, 233)"><h4>Bukit Teletubies</h4></a>
             <p style="font-weight: 700">Alamat: Sumberasri, Nglegok, Sumberasri, Nglegok, Blitar, Jawa Timur</p>
             <p style="text-align: justify; color: aliceblue; font-weight: 400">
@@ -128,7 +128,7 @@
             </p>
           </div>
           <div class="col-md-6 text-center mb-4" id="post4">
-            <img src="img/7.jpg" alt="" class="mb-2 img-fluid" style="border-radius: 10px" />
+            <img src="img/7.jpg" alt="" class="mb-2 img-fluid img-thumbnail" style="border-radius: 10px" width="400" height="200" />
             <a href="https://jelajahblitar.com/air-terjun-grenjeng/" class="text-decoration-none" style="color: rgb(227, 230, 233)"><h4>Air Terjun Grenjeng</h4></a>
             <p style="font-weight: 700">Alamat: Kalibentak, Panggungrejo, Blitar, Jawa Timur</p>
             <p style="text-align: justify; color: aliceblue; font-weight: 400">
@@ -206,18 +206,18 @@
 
           <form id="myForm">
             <div class="mb-3">
-              <label for="name" class="form-label"><h6 class="fw-bold">Full Name</h6></label>
-              <input type="text" class="form-control" style="background-color: rgb(255, 255, 255)" id="name" aria-describedby="name" placeholder="Windah Basudara" />
+              <label for="name" class="form-label"><h6 class="fw-bold fs-5">Full Name</h6></label>
+              <input type="text" class="form-control" style="background-color: rgb(255, 255, 255)" id="name" aria-describedby="name" placeholder="Your Name.." />
             </div>
             <div class="mb-3">
-              <label for="email" class="form-label"><h6 class="fw-bold">Email</h6></label>
-              <input type="email" class="form-control" style="background-color: rgb(255, 255, 255)" id="email" aria-describedby="email" placeholder="windah@basudara.com" />
+              <label for="email" class="form-label"><h6 class="fw-bold fs-5">Email</h6></label>
+              <input type="email" class="form-control" style="background-color: rgb(255, 255, 255)" id="email" aria-describedby="email" placeholder="example@gmail.com" />
             </div>
             <div class="mb-3">
-              <label for="message" class="form-label"><h6 class="fw-bold">Message</h6></label>
+              <label for="message" class="form-label"><h6 class="fw-bold fs-5">Message</h6></label>
               <textarea class="form-control" style="background-color: rgb(255, 255, 255)" id="message" rows="3" placeholder="Example message is here..."></textarea>
             </div>
-            <button id="submit" class="btn btn-secondary fw-bold" onclick="const alert = document.querySelector('.alert'); alert.classList.toggle('d-none'); form.reset()">Send</button>
+            <button id="submit" class="btn btn-dark fw-bold w-25 mt-3" onclick="const alert = document.querySelector('.alert'); alert.classList.toggle('d-none'); form.reset()">Send</button>
 
             <button class="btn btn-secondary fw-bold d-none" id="loading" type="button" disabled>
               <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
