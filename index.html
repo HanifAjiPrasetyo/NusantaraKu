@@ -217,7 +217,7 @@
               <label for="message" class="form-label"><h6 class="fw-bold">Message</h6></label>
               <textarea class="form-control" style="background-color: rgb(255, 255, 255)" id="message" rows="3" placeholder="Example message is here..."></textarea>
             </div>
-            <button type="submit" id="submit" class="btn btn-secondary fw-bold" onclick="const alert = document.querySelector('.alert'); alert.classList.toggle('d-none'); form.reset()">Send</button>
+            <button id="submit" class="btn btn-secondary fw-bold" onclick="const alert = document.querySelector('.alert'); alert.classList.toggle('d-none'); form.reset()">Send</button>
 
             <button class="btn btn-secondary fw-bold d-none" id="loading" type="button" disabled>
               <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
